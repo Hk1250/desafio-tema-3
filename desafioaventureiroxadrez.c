@@ -60,7 +60,78 @@ while (k <= resultado && resultado <= 8)
 
     k++;
 }
+// variavel da entrada do usuario
+int opcao; 
+//variaveis e atributos dos movimentos do cavalo
+int a= 1,b = 1,c = 1,d = 1;
 
-printf("ENCERRANDO O JOGO... \n");
+// saida do programa
+printf("escolha para onde o cavalo deve andar:\n");
+printf("1. Baixo > esquerda\n");
+printf("2. Baixo > direita\n");
+printf("3. cima > esquerda\n");
+printf("4. cima > direita\n");
+scanf("%d", &opcao);
+
+// menu interativo 
+switch (opcao)
+{
+  //menu 1 e movimento 1
+case 1:
+while (a--)
+{
+  for (int i= 1;i <=2;i++)
+  {
+  printf("Baixo\n");
+
+  }
+  
+  printf("Esquerda");
+ 
+}
+ break;
+// menu 2 e movimento 2
+ case 2:
+while (b--)
+{
+  for (int j = 1;j <=2;j++)
+  {
+  printf("Baixo\n");
+
+  }
+
+  printf("direita");
+}
+break;
+  //menu 3 e movimento 3
+case 3:
+while (c--)
+{
+  for (int k = 1;k <=2;k++)
+  {
+  printf("cima\n");
+
+  }
+
+  printf("esquerda");
+}
+break;
+  //menu 4 e movimento 4
+case 4:
+while (d--)
+{
+  for (int l = 1;l <=2;l++)
+  {
+  printf("cima\n");
+
+  }
+
+  printf("direita");
+}
+
+default:
+  break;
+}
 
 }
+
