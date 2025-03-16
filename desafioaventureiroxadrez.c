@@ -86,7 +86,7 @@ while (a--)
 
   }
   
-  printf("Esquerda");
+  printf("Esquerda\n");
  
 }
  break;
@@ -100,7 +100,7 @@ while (b--)
 
   }
 
-  printf("direita");
+  printf("direita\n");
 }
 break;
   //menu 3 e movimento 3
@@ -113,7 +113,7 @@ while (c--)
 
   }
 
-  printf("esquerda");
+  printf("esquerda\n");
 }
 break;
   //menu 4 e movimento 4
@@ -126,12 +126,12 @@ while (d--)
 
   }
 
-  printf("direita");
+  printf("direita\n");
 }
 
-default:
+default:printf("Opção invalida \n");
   break;
 }
-
+printf("Encerrando o jogo... \n");
 }
 
